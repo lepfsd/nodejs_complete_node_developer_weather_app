@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lepfsd/nodejs_complete_node_developer_weather_app#readme",
   "dependencies": {
-    "request": "^2.73.0"
+    "request": "^2.73.0",
+    "yargs": "^4.8.1"
   }
 }
