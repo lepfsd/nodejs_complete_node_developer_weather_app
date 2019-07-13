@@ -28,7 +28,7 @@ const argv = yargs
 	.alias('help', 'h')
 	.argv;
 
-weather.getWeather(argv.lat,argv.lng, (errorMessage, weatherResults) => {
+weather.getWeather(37.8267,-122.4233, (errorMessage, weatherResults) => {
 	if(errorMessage) {
 		console.log(errorMessage);
 	} else {
